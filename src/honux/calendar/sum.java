@@ -19,5 +19,6 @@ public class sum {
 		System.out.println(s1+"+"+s2+"="+(a+b));
 		//System.out.println("두수의 합은"+(a+b)+"입니다");
 		System.out.printf("%d와 %d의 합은 %d 입니다",a,b,(a+b));
+		scanner.close(); //메모리누수 방지
 	}
 }
